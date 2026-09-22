@@ -1,3 +1,10 @@
+
+//calculates a^b using binary exponentiation.
+//TIME: O(log a)
+//SPACE: O(1)
+
+
+
 long long binpow(long long a,long long b) {
     long long res = 1;
     while(b) {
