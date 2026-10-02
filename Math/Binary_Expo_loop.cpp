@@ -3,10 +3,7 @@
 //TIME: O(log a)
 //SPACE: O(1)
 
-int func()
-{
-    return 0;
-}
+
 long long binpow(long long a,long long b) {
     long long res = 1;
     while(b) {
